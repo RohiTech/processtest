@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Processtest
+Bundle-SymbolicName: org.rohitech.processtest;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: RohiTech
+Automatic-Module-Name: org.rohitech.processtest
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.adempiere.base;bundle-version="8.2.0",
+ org.adempiere.plugin.utils;bundle-version="8.2.0",
+ org.adempiere.base.process;bundle-version="8.2.0"
+Service-Component: OSGI-INF/ProcessFactory.xml
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: org.adempiere.plugin.utils.AdempiereActivator
